@@ -1,0 +1,15 @@
+{
+  "name": "sit323_737-2024-t1-prac4p",
+  "version": "1.0.0",
+  "description": "calculaltor microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mark Devereux",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
