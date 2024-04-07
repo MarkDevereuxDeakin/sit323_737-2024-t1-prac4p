@@ -34,7 +34,7 @@ function multiplication(num1, num2){
     return num1 * num2;
 }
 
-//get request for addition with two numbers
+//API endpoint for addition with two numbers
 app.get('/add/:num1/:num2', (req, res) => {
 
     try{
@@ -72,7 +72,7 @@ app.get('/add/:num1/:num2', (req, res) => {
     }
 })
 
-//get request for subtraction with two numbers
+//API endpoint for subtraction with two numbers
 app.get('/subtract/:num1/:num2', (req, res) => {
 
     try{
@@ -110,7 +110,7 @@ app.get('/subtract/:num1/:num2', (req, res) => {
     }
 })
 
-//get request for division with two numbers
+//API endpoint for division with two numbers
 app.get('/divide/:num1/:num2', (req, res) => {
 
     try{
@@ -149,7 +149,7 @@ app.get('/divide/:num1/:num2', (req, res) => {
 })
 
 
-//get request for multiplication with two numbers
+//API endpoint for multiplication with two numbers
 app.get('/multiply/:num1/:num2', (req, res) => {
 
     try{
